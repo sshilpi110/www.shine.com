@@ -1,61 +1,216 @@
- 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-} 
- 
- 
- 
- 
- #slideshow{
-    margin-left: 35px;
-}
-#png img{
-   
-    /* border:1px solid red; */
-    margin-left: 140px;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: PT Sans, sans-serif;
+ }
 
-#btn{
+
+
+
+ #slideshow {
+     margin-left: 35px;
+ }
+
+ #png img {
+
+     /* border:1px solid red; */
+     margin-left: 140px;
+ }
+
+ #btn {
+     display: flex;
+     gap: 10%;
+     margin-left: 430px;
+     border-radius: 15px;
+ }
+
+ #btn1 {
+     border-radius: 20px;
+     height: 35px;
+     width: 130%;
+     color: black;
+     background-color: rgb(51, 152, 155);
+     border: transparent;
+     font-size: 15px;
+     font-weight: bolder;
+ }
+
+ #btn2 {
+     border-radius: 20px;
+     height: 35px;
+     width: 130%;
+     border-color: cornflowerblue;
+     color: cornflowerblue;
+     font-weight: bolder;
+ }
+
+ #flex {
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     /* padding-top: 20px; */
+     margin-top: 30px;
+     gap: 5%;
+     width:70%;
+     margin-left: 45px;
+     
+ }
+.Two_img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ }
+ #Two_Div{
     display: flex;
-    gap: 10%;
-    margin-left: 430px;
-    border-radius: 15px;
-}
+    gap: 9%;
+    margin-left: 340px;
+    height: 80px;
+    
+ }
+ #Two_Div img{
+    width: 10%;
+ }
+ #Two_Div div{
+    border:1px solid red;
+    
 
-#btn1{
-    border-radius: 20px; 
-    height: 35px;
-    width:130% ;
-    color: black;
-    background-color: rgb(51, 152, 155);
-    border: transparent;
-    font-size: 15px;
-    font-weight: bolder;
-}
+ }
+ #sky_blue{
+    display: flex;
+   text-align: center;
+   border:1px solid red;
+   height: 200px;
+   width: 100%;
+   padding-left: 230px;
+   
+   
+ }
+ .search{
+    border:transparent;
+    width: 20%;
+    height: 40px;
+    gap: 7%;
+ }
+ .post{
+    border:transparent;
+    width: 20%;
+    height: 40px;
+    gap: 13%;
+ }
 
-#btn2{
-    border-radius: 20px; 
-    height: 35px;
-    width:130% ;
-    border-color:  cornflowerblue;
-    color: cornflowerblue;
-    font-weight: bolder;
-}
 
-#flex{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    /* padding-top: 20px; */
-    margin-top: 30px;
-}
+ h1 {
 
-h1{
+     margin-top: 70px;
+     text-align: center;
+     font-size: 45px;
 
-    margin-top: 70px;
-    text-align: center;
-    font-size: 45px;
+ }
+ #mid_wrap{
+    display: flex;
+    margin-top: 15px;
+ }
 
-}
+
+ #mid {
+     /* border: 1px solid blue; */
+     width: 27%;
+     height: 230px;
+     margin-top: 0;
+     margin: 1.5rem 0;
+     cursor: pointer;
+     position: relative;
+     /* padding-left:10px ; */
+     font-style: 18px;
+     margin-left: 30px;
+     padding: 10px;
+     font-family: sans-serif;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     padding-left: 25px;
+     padding-bottom: 250px;
+     font-size: 14px;
+    }
+
+ .hot {
+     display: flex;
+     /* border:1px solid blue; */
+     justify-content: space-between;
+     margin-top: 15px;
+     font-weight: 400;
+ }
+
+ .hot1 img {
+     width: 23%;
+     /* height: 20px; */
+ }
+
+ .hot1 {
+     display: flex;
+     margin-top: 13px;
+
+ }
+
+ .hot_h3 {
+     margin-top: 10px;
+ }
+
+ .loc {
+     display: flex;
+     gap: 5%;
+     margin-top: 10px;
+     width: 70%;
+
+ }
+
+ .loc p {
+     margin-top: 10px;
+ }
+
+ .msg {
+     display: flex;
+     gap: 5%;
+     margin-top: 10px;
+     width: 70%;
+     margin-left: 15px;
+     padding-bottom: 10px;
+
+ }
+
+ .msg p {
+     margin-top: 10px;
+ }
+
+ p {
+     color: grey;
+ }
+
+ .apply {
+     display: flex;
+     gap: 9%;
+     margin-top: 10px;
+     margin-left: 10px;
+ }
+
+ .w-100 {
+     width: 100% !important;
+     margin-left: 250px;
+ }
+
+ .btn-link {
+     border: 0;
+     color: #8652ff !important;
+     background-color: transparent;
+     font-size: 18px;
+     font-weight: 700;
+     cursor: pointer;
+     font-family: inherit;
+ }
+
+ #Two_Div  div{
+    margin-top: 20px;
+    display:flex ;
+    gap: 2%;
+    justify-content: space-around;
+    padding-right:180px ;
+ }
+ 
