@@ -8,6 +8,7 @@
 }
 #navbar_1 {
     display: flex;
+    position: relative;
     height: 35px;
     padding-top: 3px;
     width: 100vw;
@@ -80,6 +81,7 @@
 }
 #navbar_2_1 > img:nth-child(1) {
     height: 50px;
+    width: 75px;
 }
 #navbar_2_1 > input:nth-child(2){
     padding: 0.1px 240px 0.1px 15px;
