@@ -3,7 +3,7 @@
     height: 332px;
     position: fixed;
     bottom: 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #footer_1 {
@@ -38,6 +38,6 @@ a {
     justify-content: space-evenly;
     gap: 14px;
 }
-#footer_2_1 p{
+/* #footer_2_1 p{
     border-right: 3px solid red
-}
+} */
