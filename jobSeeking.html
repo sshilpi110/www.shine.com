@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #heading1{
+            text-align: center;
+        }
+
+        #container1{
+            width: 90%;
+            margin: auto;
+            height: 400px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            border: 2px solid red;
+            gap: 5%;
+        }
+
+        .innercontainer1{
+            border: 1px solid black;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .innercontainer1>img{
+            width: 100%;
+        }
+
+        .innercontainer1>p{
+            color: gray;
+            width: 72%;
+        }
+
+        .innercontainer1>h2,p,h3,#one{
+            margin-left: 20px;
+        }
+
+        #one{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #one>p{
+            color: rgb(144,96,255);
+            font-weight: bolder;
+        }
+        #one>button{
+            background-color: rgb(144,96,255);
+            color: white;
+            padding: 5px 20px;
+            border-radius: 5px;
+        }
+
+        /* --------------------------------------- */
+        #container2{
+            width: 90%;
+            display: flex;
+            margin: auto;
+            margin-top: 150px;
+            border: 2px solid red;
+            gap: 100px;
+        }
+
+        #innercontainer21{
+            width: 35%;
+            border: 1px solid black;
+        }
+
+        #innercontainer22>p{
+           margin-top: 30px;
+           font-size: 25px;
+           color: rgb(56,64,76);
+        }
+
+        #innercontainer22>button{
+            font-size: 20px;
+            color: white;
+            font-weight: bolder;
+            background-color: rgb(251,165,4);
+            padding: 10px 30px;
+            margin-left: 30%;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+
+        #innercontainer21>img{
+            width: 100%;
+        }
+
+        #innercontainer22{
+            border: 1px solid black;
+        }
+
+        #innercontainer22>h1{
+            width: 80%;
+            margin-left: 20px;
+            margin-top: 80px;
+        }
+/* ------------------------------------------------------------------------  */
+        #container3{
+            width: 100%;
+            height: 1000px;
+            background-color: rgb(242,243,248);
+            margin-top: 80px;
+            border: 2px solid black;
+        }
+
+        #container3>h1{
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        #container31{
+            border: 2px solid red;
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+            gap: 50px;
+        }
+
+        .container311{
+            background-color: white;
+            border: 2px solid blue;
+            border-radius: 8px;
+        }
+        .container311>h1{
+            margin-left: 20px;
+        }
+        .container311>p{
+            margin-left: 20px;
+            color: gray;
+            width: 80%;
+        }
+
+        .lastdiv{
+            border: 1px solid violet;
+            display: flex;
+            justify-content: space-around;
+           margin-bottom: 5px;
+        }
+
+        .O111{
+            display: flex;
+            align-items: center;
+            color: rgb(127, 89, 89);
+        }
+        .O111>p{
+            margin: 10px; 
+        }
+
+        .O112{
+            display: flex;
+            align-items: center;
+            color: rgb(127, 89, 89);
+        }
+        .O112>p{
+            margin: 5px; 
+        }
+        #explore{
+            color: blue;
+            font-weight: bold;
+        }
+
+
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- -----------------Code For Slider--------------------------  -->
+
+
+    <!-- -------------------first part---------------------------------------- -->
+
+    <h1 id="heading1">Increase Your Recruiter Reach By 10x</h1>
+    <div id="container1">
+        <div class="innercontainer1">
+            <img src="https://static1.shine.com/l/m/product_image/images_all/1640935815_1767.png">
+            <h2>Application Highlighter</h2>
+            <p>Highlight your job application and improve visiblity to recruiter.Increase your chance of getting a</p>
+            <h3>Rs 1699</h3>
+            <div id="one">
+                <p>Explore</p>
+                <button class="expert">Talk to Expert</button>
+            </div>
+        </div>
+        <div class="innercontainer1">
+            <img src="https://static1.shine.com/l/m/product_image/images_all/1640925161_7427.png">
+            <h2>Featured Profile</h2>
+            <p>Get more visibility in the recruiter seraches by getting a priority applicant tag with this service</p>
+            <h3>Rs 1999</h3>
+            <div id="one">
+                <p>Explore</p>
+                <button class="expert">Talk to Expert</button>
+            </div>
+        </div>
+        <div class="innercontainer1">
+            <img src="https://static1.shine.com/l/m/product_image/images_all/1640940094_8952.png">
+            <h2>Application Booster Package</h2>
+            <p>Priority Applicant service to highlight and circulate your profile to the recruiters of your choice.</p>
+            <h3>Rs 3099</h3>
+            <div id="one">
+                <p>Explore</p>
+                <button class="expert">Talk to Expert</button>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------- 2nd part--------------------- -->
+    <div id="container2">
+        <div id="innercontainer21">
+            <img src="https://resume.shine.com/next/static/images/check-resume-score.png">
+        </div>
+
+        <div id="innercontainer22">
+            <h1>Are Recruiters Impressed By Your Resume?</h1>
+            <p>Get the <b>free review</b> of your resume in just 30 sec</p>
+            <button>Check Resume Score</button>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------- 3rd part--------------------- -->
+
+    <div id="container3">
+        <h1>Career Guides</h1>
+        <div id="container31">
+            <div class="container311">
+                <i class="fa fa-file-text-o" style="font-size:25px;color:rgb(148, 50, 11);background-color: rgb(255,223,178);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
+                <h1>Resume Formats</h1>
+                <p>Get to know everything about a professional resume</p>
+                <div class="lastdiv">
+                    <div class="O111">
+                        <i class="fa fa-eye"></i>
+                        <p>35881</p>
+                    </div>
+                    <div class="O112">
+                        <p>Share</p>
+                        <p>1697</p>
+                    </div>
+                    <p id="explore">Explore</p>
+                </div>
+            </div>
+
+            <div class="container311">
+                <i class="fa fa-file-o" style="font-size:25px;color:rgb(132,114,177);background-color: rgb(170,200,138);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
+                <h1>Resignation Letter Formats</h1>
+                <p>Get to know everything about a professional resume</p>
+                <div class="lastdiv">
+                    <div class="O111">
+                        <i class="fa fa-eye"></i>
+                        <p>35881</p>
+                    </div>
+                    <div class="O112">
+                        <p>Share</p>
+                        <p>1697</p>
+                    </div>
+                    <p id="explore">Explore</p>
+                </div>
+            </div>
+
+            <div class="container311">
+                <i class="fa fa-file-excel-o" style="font-size:25px;color:rgb(170,200,138);background-color: rgb(99,154,240);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
+                <h1>CoverLetter Formats</h1>
+                <p>Get to know everything about a professional resume</p>
+                <div class="lastdiv">
+                    <div class="O111">
+                        <i class="fa fa-eye"></i>
+                        <p>35881</p>
+                    </div>
+                    <div class="O112">
+                        <p>Share</p>
+                        <p>1697</p>
+                    </div>
+                    <p id="explore">Explore</p>
+                </div>
+            </div>
+
+            <div class="container311">
+                <i class="fa fa-file-code-o" style="font-size:25px;color:rgb(148, 50, 11);background-color: rgb(255,223,178);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
+                <h1>Resume Template</h1>
+                <p>Get to know everything about a professional resume</p>
+                <div class="lastdiv">
+                    <div class="O111">
+                        <i class="fa fa-eye"></i>
+                        <p>35881</p>
+                    </div>
+                    <div class="O112">
+                        <p>Share</p>
+                        <p>1697</p>
+                    </div>
+                    <p id="explore">Explore</p>
+                </div>
+            </div>
+
+            <div class="container311">
+                <i class="fa fa-file-zip-o" style="font-size:25px;color:rgb(99,154,240);background-color: rgb(200,231,255);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
+                <h1>Linkedin Summary Example</h1>
+                <p>Get to know everything about a professional resume</p>
+                <div class="lastdiv">
+                    <div class="O111">
+                        <i class="fa fa-eye"></i>
+                        <p>35881</p>
+                    </div>
+                    <div class="O112">
+                        <p>Share</p>
+                        <p>1697</p>
+                    </div>
+                    <p id="explore">Explore</p>
+                </div>
+            </div>
+
+            <div class="container311">
+                <i class="fa fa-file-o" style="font-size:25px;color:rgb(132,114,177);background-color: rgb(170,200,138);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
+                <h1>Relieving Letter</h1>
+                <p>Get to know everything about a professional resume</p>
+                <div class="lastdiv">
+                    <div class="O111">
+                        <i class="fa fa-eye"></i>
+                        <p>35881</p>
+                    </div>
+                    <div class="O112">
+                        <p>Share</p>
+                        <p>1697</p>
+                    </div>
+                    <p id="explore">Explore</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!-- 
+fa fa-file-powerpoint-o
+fa fa-file-o
+fa fa-file-excel-o
+fa fa-file-code-o
+fa fa-file-zip-o
+fa fa-file-pdf-o -->
+
+
+<!-- for eye symbol
+<i class="fa fa-eye"></i>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+
+
+<!-- for share icon
+<i class="fa-solid fa-share"></i>   -->
