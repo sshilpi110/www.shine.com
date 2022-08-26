@@ -1,0 +1,43 @@
+#footer {
+    width: 100vw;
+    height: 332px;
+    position: fixed;
+    bottom: 0px;
+    /* border: 1px solid red; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#footer_1 {
+    width: 76vw;
+    height: 210px;
+    /* border: 1px solid blue; */
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.ptags {
+    font-weight: 550;
+}
+a {
+    text-decoration: none;
+}
+#footer_1 p{
+    margin-top: -5px;
+}
+#footer_2 {
+    display: flex;
+    font-size: 14px;
+    height: 14px;
+    width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    color: grey;
+}
+#footer_2_1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 14px;
+}
+/* #footer_2_1 p{
+    border-right: 3px solid red
+} */
