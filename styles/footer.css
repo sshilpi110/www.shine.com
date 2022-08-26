@@ -20,6 +20,8 @@
 }
 a {
     text-decoration: none;
+    /* color: red */
+    color: rgb(86, 86, 210);
 }
 #footer_1 p{
     margin-top: -5px;
@@ -37,6 +39,10 @@ a {
     display: flex;
     justify-content: space-evenly;
     gap: 14px;
+}
+#footer_1_5_1 >a > img {
+    width: 16px;
+    margin-right:14px ;
 }
 /* #footer_2_1 p{
     border-right: 3px solid red
