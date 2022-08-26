@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,56 +8,60 @@
     <title>Document</title>
 
     <style>
-        #heading1{
+        #heading1 {
             text-align: center;
         }
 
-        #container1{
+        #container1 {
             width: 90%;
             margin: auto;
             height: 400px;
             display: grid;
-            grid-template-columns: repeat(3,1fr);
+            grid-template-columns: repeat(3, 1fr);
             border: 2px solid red;
             gap: 5%;
         }
 
-        .innercontainer1{
+        .innercontainer1 {
             border: 1px solid black;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
 
-        .innercontainer1>img{
+        .innercontainer1>img {
             width: 100%;
         }
 
-        .innercontainer1>p{
+        .innercontainer1>p {
             color: gray;
             width: 72%;
         }
 
-        .innercontainer1>h2,p,h3,#one{
+        .innercontainer1>h2,
+        p,
+        h3,
+        #one {
             margin-left: 20px;
         }
 
-        #one{
+        #one {
             display: flex;
             justify-content: space-between;
         }
 
-        #one>p{
-            color: rgb(144,96,255);
+        #one>p {
+            color: rgb(144, 96, 255);
             font-weight: bolder;
         }
-        #one>button{
-            background-color: rgb(144,96,255);
+
+        #one>button {
+            background-color: rgb(144, 96, 255);
             color: white;
             padding: 5px 20px;
             border-radius: 5px;
         }
 
         /* --------------------------------------- */
-        #container2{
+        #container2 {
             width: 90%;
             display: flex;
             margin: auto;
@@ -65,114 +70,226 @@
             gap: 100px;
         }
 
-        #innercontainer21{
+        #innercontainer21 {
             width: 35%;
             border: 1px solid black;
         }
 
-        #innercontainer22>p{
-           margin-top: 30px;
-           font-size: 25px;
-           color: rgb(56,64,76);
+        #innercontainer22>p {
+            margin-top: 30px;
+            font-size: 25px;
+            color: rgb(56, 64, 76);
         }
 
-        #innercontainer22>button{
+        #innercontainer22>button {
             font-size: 20px;
             color: white;
             font-weight: bolder;
-            background-color: rgb(251,165,4);
+            background-color: rgb(251, 165, 4);
             padding: 10px 30px;
             margin-left: 30%;
             border-radius: 5px;
             margin-top: 30px;
         }
 
-        #innercontainer21>img{
+        #innercontainer21>img {
             width: 100%;
         }
 
-        #innercontainer22{
+        #innercontainer22 {
             border: 1px solid black;
         }
 
-        #innercontainer22>h1{
+        #innercontainer22>h1 {
             width: 80%;
             margin-left: 20px;
             margin-top: 80px;
         }
-/* ------------------------------------------------------------------------  */
-        #container3{
+
+        /* ------------------------------------------------------------------------  */
+        #container3 {
             width: 100%;
             height: 1000px;
-            background-color: rgb(242,243,248);
+            background-color: rgb(242, 243, 248);
             margin-top: 80px;
             border: 2px solid black;
         }
 
-        #container3>h1{
+        #container3>h1 {
             text-align: center;
             padding-top: 80px;
         }
 
-        #container31{
+        #container31 {
             border: 2px solid red;
             width: 90%;
             margin: auto;
             display: grid;
-            grid-template-columns: repeat(3,1fr);
-            grid-template-rows: repeat(2,1fr);
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
             gap: 50px;
         }
 
-        .container311{
+        .container311 {
             background-color: white;
             border: 2px solid blue;
             border-radius: 8px;
         }
-        .container311>h1{
+
+        .container311>h1 {
             margin-left: 20px;
         }
-        .container311>p{
+
+        .container311>p {
             margin-left: 20px;
             color: gray;
             width: 80%;
         }
 
-        .lastdiv{
+        .lastdiv {
             border: 1px solid violet;
             display: flex;
             justify-content: space-around;
-           margin-bottom: 5px;
+            margin-bottom: 5px;
         }
 
-        .O111{
+        .O111 {
             display: flex;
             align-items: center;
             color: rgb(127, 89, 89);
         }
-        .O111>p{
-            margin: 10px; 
+
+        .O111>p {
+            margin: 10px;
         }
 
-        .O112{
+        .O112 {
             display: flex;
             align-items: center;
             color: rgb(127, 89, 89);
         }
-        .O112>p{
-            margin: 5px; 
+
+        .O112>p {
+            margin: 5px;
         }
-        #explore{
+
+        #explore {
             color: blue;
             font-weight: bold;
         }
 
+        /* ----------------------------feeling lost----------------------------------------------- */
+        #feelingH1 {
+            text-align: center;
+            margin-top: 80px;
+        }
 
+        #feelingP {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        #feelingLost {
+            width: 90%;
+            margin: auto;
+            border: 2px solid red;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+        }
+
+        #feelingLost1 {
+            border: 1px solid rgb(248, 171, 171);
+            display: flex;
+            height: 300px;
+            align-items: center;
+        }
+
+        #feelingLost1>div>img {
+            width: 50%;
+        }
+
+        #feelingLost1 button {
+            background-color: rgb(108, 45, 255);
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        #feelingLost1 p {
+            font-size: 30px;
+            font-weight: bolder;
+            margin-left: -8px;
+        }
+
+        #feelingLost2 {
+            border: 1px solid rgb(248, 171, 171);
+            display: flex;
+            height: 300px;
+            align-items: center;
+        }
+
+        #feelingLost2 img {
+            width: 50%;
+        }
+
+        #feelingLost2:last-child div {
+            margin: auto;
+        }
+
+        #feelingLost2 button {
+            background-color: rgb(108, 45, 255);
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        #feelingLost2 p {
+            font-size: 30px;
+            font-weight: bolder;
+            margin-left: -8px;
+        }
+        /* ----------------------------------------------REVIEWS----------------------------------------------------------------------  */
+
+        #success{
+            text-align: center;
+        }
+        #successdiv{
+            width: 90%;
+            margin: auto;
+            border: 2px solid red;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 5%;
+            
+        }
+        .successdiv1{
+            /* border: 2px solid green; */
+            background-color: rgb(230,230,230);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .successdiv1>div{
+            height: 80px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .successdiv1 img{
+            height: 80px;
+            /* margin-top: 20px; */
+            margin: 20px;
+        }
+        .successdiv1>h1{
+            margin: 20px;
+            margin-top: 30px;
+        }
 
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <!-- -----------------Code For Slider--------------------------  -->
 
@@ -231,7 +348,8 @@
         <h1>Career Guides</h1>
         <div id="container31">
             <div class="container311">
-                <i class="fa fa-file-text-o" style="font-size:25px;color:rgb(148, 50, 11);background-color: rgb(255,223,178);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
+                <i class="fa fa-file-text-o"
+                    style="font-size:25px;color:rgb(148, 50, 11);background-color: rgb(255,223,178);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
                 <h1>Resume Formats</h1>
                 <p>Get to know everything about a professional resume</p>
                 <div class="lastdiv">
@@ -248,7 +366,8 @@
             </div>
 
             <div class="container311">
-                <i class="fa fa-file-o" style="font-size:25px;color:rgb(132,114,177);background-color: rgb(170,200,138);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
+                <i class="fa fa-file-o"
+                    style="font-size:25px;color:rgb(132,114,177);background-color: rgb(170,200,138);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
                 <h1>Resignation Letter Formats</h1>
                 <p>Get to know everything about a professional resume</p>
                 <div class="lastdiv">
@@ -265,7 +384,8 @@
             </div>
 
             <div class="container311">
-                <i class="fa fa-file-excel-o" style="font-size:25px;color:rgb(170,200,138);background-color: rgb(99,154,240);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
+                <i class="fa fa-file-excel-o"
+                    style="font-size:25px;color:rgb(170,200,138);background-color: rgb(99,154,240);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
                 <h1>CoverLetter Formats</h1>
                 <p>Get to know everything about a professional resume</p>
                 <div class="lastdiv">
@@ -282,7 +402,8 @@
             </div>
 
             <div class="container311">
-                <i class="fa fa-file-code-o" style="font-size:25px;color:rgb(148, 50, 11);background-color: rgb(255,223,178);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
+                <i class="fa fa-file-code-o"
+                    style="font-size:25px;color:rgb(148, 50, 11);background-color: rgb(255,223,178);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
                 <h1>Resume Template</h1>
                 <p>Get to know everything about a professional resume</p>
                 <div class="lastdiv">
@@ -299,7 +420,8 @@
             </div>
 
             <div class="container311">
-                <i class="fa fa-file-zip-o" style="font-size:25px;color:rgb(99,154,240);background-color: rgb(200,231,255);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
+                <i class="fa fa-file-zip-o"
+                    style="font-size:25px;color:rgb(99,154,240);background-color: rgb(200,231,255);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
                 <h1>Linkedin Summary Example</h1>
                 <p>Get to know everything about a professional resume</p>
                 <div class="lastdiv">
@@ -316,7 +438,8 @@
             </div>
 
             <div class="container311">
-                <i class="fa fa-file-o" style="font-size:25px;color:rgb(132,114,177);background-color: rgb(170,200,138);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
+                <i class="fa fa-file-o"
+                    style="font-size:25px;color:rgb(132,114,177);background-color: rgb(170,200,138);padding: 10px; border-radius: 10px; margin-top: 20px;margin-left: 20px;"></i>
                 <h1>Relieving Letter</h1>
                 <p>Get to know everything about a professional resume</p>
                 <div class="lastdiv">
@@ -331,10 +454,67 @@
                     <p id="explore">Explore</p>
                 </div>
             </div>
-            
         </div>
     </div>
+    <!-- ----------------------------------------------------Feeling Lost Part------------------------------------------------------------------------------- -->
+    <h1 id="feelingH1">Feeling Lost</h1>
+    <p id="feelingP">Our experts would love you to assist you</p>
+    <div id="feelingLost">
+        <div id="feelingLost1">
+            <div>
+                <img src="https://resume.shine.com/next/static/images/call-experts.png">
+            </div>
+            <div>
+                <p>Call our expert immediately</p>
+                <button>Call Now</button>
+            </div>
+        </div>
+        <div id="feelingLost2">
+            <div>
+                <img src="https://resume.shine.com/next/static/images/callback-detail.png">
+            </div>
+            <div>
+                <p>Provide your details and we will call back</p>
+                <input type="text" placeholder="Name"> <br><br>
+                <input type="text" placeholder="Mobile"> <br><br>
+                <button>Request Callback</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------Success Stories--------------------------------------------------    -->
+
+    <h1 id="success">Success Stories</h1>
+    <div id="successdiv">
+        <div class="successdiv1">
+            <div><img src="https://static1.shine.com/l/m/images/testimonial/WhatsApp_Image_2022-03-24_at_11.23.50.jpeg">
+            </div>
+            <p style="color: gray;margin-top: 80px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis numquam fuga assumenda ullam
+                voluptatum rerum illum quod ipsa obcaecati, incidunt iste distinctio dolores quo quaerat. Rem debitis
+                mollitia itaque?</p>
+            <h1>Ritu Dhadwal</h1>
+            <p style="font-size: 20px; color:gray; margin-top: -15px;">Software Developer</p>
+        </div>
+        <div class="successdiv1">
+            <div><img src="https://static1.shine.com/l/m/images/testimonial/MicrosoftTeams-image.png"></div>
+            <p style="color: gray;margin-top: 80px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis numquam fuga assumenda ullam
+                voluptatum rerum illum quod ipsa obcaecati, incidunt iste distinctio dolores quo quaerat. Rem debitis
+                mollitia itaque?</p>
+            <h1>Aditya Kaushik</h1>
+            <p style="font-size: 20px; color:gray; margin-top: -15px;">Product Manager</p>
+        </div>
+        <div class="successdiv1">
+            <div><img src="https://static1.shine.com/l/m/images/testimonial/WhatsApp_Image_2022-03-24_at_11.24.55.jpeg"></div>
+            <p style="color: gray; margin-top: 80px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis numquam fuga assumenda ullam
+                voluptatum rerum illum quod ipsa obcaecati, incidunt iste distinctio dolores quo quaerat. Rem debitis
+                mollitia itaque?</p>
+            <h1>Sanchit Tanwar</h1>
+            <p style="font-size: 20px; color:gray; margin-top: -15px;">Product Marketing Manager</p>
+        </div>
+    </div>
+
 </body>
+
 </html>
 
 
