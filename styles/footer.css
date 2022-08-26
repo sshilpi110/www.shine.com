@@ -14,14 +14,14 @@
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    /* color: ; */
 }
 .ptags {
     font-weight: 550;
 }
 a {
     text-decoration: none;
-    /* color: red */
-    color: rgb(86, 86, 210);
+    color: rgb(67, 67, 221);
 }
 #footer_1 p{
     margin-top: -5px;
@@ -39,11 +39,9 @@ a {
     display: flex;
     justify-content: space-evenly;
     gap: 14px;
+
 }
-#footer_1_5_1 >a > img {
-    width: 16px;
-    margin-right:14px ;
+#footer_1_5_1 > a> img{
+    width: 14px;
+    margin-right: 20px;
 }
-/* #footer_2_1 p{
-    border-right: 3px solid red
-} */
