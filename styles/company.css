@@ -1,0 +1,11 @@
+
+
+#big{
+  display: grid;  
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(2,1fr);
+  margin: auto;
+  gap: 1px;
+  width: 80%;
+  margin-top:100px ;
+}
