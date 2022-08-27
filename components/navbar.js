@@ -36,7 +36,7 @@ let navbar = ()=> {
             <p>JOBS</p>
         </div>
         <div>
-            <p>JOBS SEEKING ASSISTANCE </p>
+            <p>JOBS SEEKING </p>
         </div>
         <div>
             <p>COURSES</p>
