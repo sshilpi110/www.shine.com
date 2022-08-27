@@ -30,16 +30,16 @@ let navbar = ()=> {
     <hr>
     <div id="navbar_3">
         <div>
-            <p>HOME</p>
+            <a style="text-decoration: none;color: black;" href="home.html"><p>HOME</p></a>
         </div>
         <div>
-            <p>JOBS</p>
+            <a style="text-decoration: none;color: black;" href="course.html"><p>JOBS</p></a>
         </div>
         <div>
-            <p>JOBS SEEKING </p>
+            <a style="text-decoration: none;color: black;" href="jobSeeking.html"><p>JOBS SEEKING ASSISTANCE</p></a>
         </div>
         <div>
-            <p>COURSES</p>
+            <a style="text-decoration: none;color: black;" href=""><p>COURSES</p></a>
         </div>
         <div>
             <a style="text-decoration: none;color: black;" href="https://learning.shine.com/user-intent"><p>CAREER GUIDANCE</p></a>

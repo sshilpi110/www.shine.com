@@ -1,10 +1,11 @@
- #navbar {
+#navbar {
     position: fixed;
     top: 0px;
     left: 0px;
     height: 150px;
-    border: 1px solid red;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.17);
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } 
 #navbar_1 {
     display: flex;
@@ -40,7 +41,7 @@
     display: inline-block;
 }
 #navbar_1 div:nth-child(3) div {     
-    /* position: absolute; */
+    position: absolute;
     background-color: #f9f9f9;
     display: none;
     min-width: 160px;
@@ -49,7 +50,7 @@
     padding: 15px;
     border-radius: 6px;
     text-align: left;
-    background-color: beige;
+    /* background-color: beige; */
     z-index: 1;
 }
 #Help_DD {
@@ -104,7 +105,7 @@
 #navbar_2_2 > img:nth-child(1) {
     height: 28px;
     margin-right: 40px;
-    /* position: relative; */
+    position: relative;
     display: inline-block;
 }
 #navbar_2_2 > img:nth-child(2) {
@@ -120,18 +121,20 @@
 }
 #navbar_3 {
     display: flex;
-    gap: 45px;
+    gap: 30px;
     width: 46vw;
     font-weight: 600;
     /* border: 1px solid red; */
     margin-left: 110px;
-    margin-top: -9px;
-    font-size: 15px;
+    margin-top: -6px;
+    font-size: 14px;
+    /* justify-content: left; */
+    /* box-shadow: 0px 0px 5px 0px grey; */
 }
 #navbar_3 div:hover {
     border-bottom: 2.5px solid rgb(31, 110, 237);
 }
-#navbar{
-    background-color: gray;
-    /* color: white; */
+#navbar_3 > div > a > p{
+    margin-left: -0.1px;
 }
+
