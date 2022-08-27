@@ -7,289 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Seeking Assistance</title>
     <link rel="icon" href="https://www.shine.com/next/static/images/shine-logo.png" type="image/x-icon" />
-    <style>
-        #heading1 {
-            text-align: center;
-        }
-
-        #container1 {
-            width: 90%;
-            margin: auto;
-            height: 400px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            border: 2px solid red;
-            gap: 5%;
-        }
-
-        .innercontainer1 {
-            border: 1px solid black;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-
-        .innercontainer1>img {
-            width: 100%;
-        }
-
-        .innercontainer1>p {
-            color: gray;
-            width: 72%;
-        }
-
-        .innercontainer1>h2,
-        p,
-        h3,
-        #one {
-            margin-left: 20px;
-        }
-
-        #one {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        #one>p {
-            color: rgb(144, 96, 255);
-            font-weight: bolder;
-        }
-
-        #one>button {
-            background-color: rgb(144, 96, 255);
-            color: white;
-            padding: 5px 20px;
-            border-radius: 5px;
-        }
-
-        /* --------------------------------------- */
-        #container2 {
-            width: 90%;
-            display: flex;
-            margin: auto;
-            margin-top: 150px;
-            border: 2px solid red;
-            gap: 100px;
-        }
-
-        #innercontainer21 {
-            width: 35%;
-            border: 1px solid black;
-        }
-
-        #innercontainer22>p {
-            margin-top: 30px;
-            font-size: 25px;
-            color: rgb(56, 64, 76);
-        }
-
-        #innercontainer22>button {
-            font-size: 20px;
-            color: white;
-            font-weight: bolder;
-            background-color: rgb(251, 165, 4);
-            padding: 10px 30px;
-            margin-left: 30%;
-            border-radius: 5px;
-            margin-top: 30px;
-        }
-
-        #innercontainer21>img {
-            width: 100%;
-        }
-
-        #innercontainer22 {
-            border: 1px solid black;
-        }
-
-        #innercontainer22>h1 {
-            width: 80%;
-            margin-left: 20px;
-            margin-top: 80px;
-        }
-
-        /* ------------------------------------------------------------------------  */
-        #container3 {
-            width: 100%;
-            height: 1000px;
-            background-color: rgb(242, 243, 248);
-            margin-top: 80px;
-            border: 2px solid black;
-        }
-
-        #container3>h1 {
-            text-align: center;
-            padding-top: 80px;
-        }
-
-        #container31 {
-            border: 2px solid red;
-            width: 90%;
-            margin: auto;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            gap: 50px;
-        }
-
-        .container311 {
-            background-color: white;
-            border: 2px solid blue;
-            border-radius: 8px;
-        }
-
-        .container311>h1 {
-            margin-left: 20px;
-        }
-
-        .container311>p {
-            margin-left: 20px;
-            color: gray;
-            width: 80%;
-        }
-
-        .lastdiv {
-            border: 1px solid violet;
-            display: flex;
-            justify-content: space-around;
-            margin-bottom: 5px;
-        }
-
-        .O111 {
-            display: flex;
-            align-items: center;
-            color: rgb(127, 89, 89);
-        }
-
-        .O111>p {
-            margin: 10px;
-        }
-
-        .O112 {
-            display: flex;
-            align-items: center;
-            color: rgb(127, 89, 89);
-        }
-
-        .O112>p {
-            margin: 5px;
-        }
-
-        #explore {
-            color: blue;
-            font-weight: bold;
-        }
-
-        /* ----------------------------feeling lost----------------------------------------------- */
-        #feelingH1 {
-            text-align: center;
-            margin-top: 80px;
-        }
-
-        #feelingP {
-            text-align: center;
-            font-size: 25px;
-        }
-
-        #feelingLost {
-            width: 90%;
-            margin: auto;
-            border: 2px solid red;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 40px;
-        }
-
-        #feelingLost1 {
-            border: 1px solid rgb(248, 171, 171);
-            display: flex;
-            height: 300px;
-            align-items: center;
-        }
-
-        #feelingLost1>div>img {
-            width: 50%;
-        }
-
-        #feelingLost1 button {
-            background-color: rgb(108, 45, 255);
-            color: white;
-            font-size: 20px;
-            padding: 10px;
-            border-radius: 8px;
-        }
-
-        #feelingLost1 p {
-            font-size: 30px;
-            font-weight: bolder;
-            margin-left: -8px;
-        }
-
-        #feelingLost2 {
-            border: 1px solid rgb(248, 171, 171);
-            display: flex;
-            height: 300px;
-            align-items: center;
-        }
-
-        #feelingLost2 img {
-            width: 50%;
-        }
-
-        #feelingLost2:last-child div {
-            margin: auto;
-        }
-
-        #feelingLost2 button {
-            background-color: rgb(108, 45, 255);
-            color: white;
-            font-size: 20px;
-            padding: 10px;
-            border-radius: 8px;
-        }
-
-        #feelingLost2 p {
-            font-size: 30px;
-            font-weight: bolder;
-            margin-left: -8px;
-        }
-        /* ----------------------------------------------REVIEWS----------------------------------------------------------------------  */
-
-        #success{
-            text-align: center;
-        }
-        #successdiv{
-            width: 90%;
-            margin: auto;
-            border: 2px solid red;
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            gap: 5%;
-            
-        }
-        .successdiv1{
-            /* border: 2px solid green; */
-            background-color: rgb(230,230,230);
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-        .successdiv1>div{
-            height: 80px;
-            display: flex;
-            justify-content: flex-end;
-        }
-        .successdiv1 img{
-            height: 80px;
-            /* margin-top: 20px; */
-            margin: 20px;
-        }
-        .successdiv1>h1{
-            margin: 20px;
-            margin-top: 30px;
-        }
-      #heading1{
-        margin-top: 200px;
-      }
-      /* ------------------------------ slider--------------------------------------- */
-    
-    </style>
+    <link rel="stylesheet" href="./styles/jobseeking.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <!-- navbar css  -->
@@ -525,7 +243,81 @@
             <p style="font-size: 20px; color:gray; margin-top: -15px;">Product Marketing Manager</p>
         </div>
     </div>
-
+    <div id="footer">
+        <div id="footer_1">
+            <div id="footer_1_1">
+                <a href="home.html"><img style="width: 75px;height:50px;" src="https://www.shine.com/next/static/images/shine-logo.png" alt=""></a>
+                <p style="font-size: 18px; margin-top: -5px;color: rgb(114, 114, 114);">Great career starts here!</p>
+                <p style="margin-top: 40px;font-weight: 700;">Download Shine App</p>
+                <div>
+                    <a style="margin-right: 20px;" href="https://play.google.com/store/apps/details?id=com.net.shine&referrer=utm_source%3Ddesktop%26utm_medium%3Dorganic"><img style="width: 30px;height:30px;" src="https://www.freepnglogos.com/uploads/google-play-png-logo/google-severs-music-studio-png-logo-21.png" alt=""></a>
+                    <a href="https://itunes.apple.com/in/app/shine.com-job-search/id950558510?ls=1&mt=8&utm_source=Shinewebpage&utm_medium=banner&utm_campaign=ios_app"><img style="width: 30px;height:30px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1200px-Apple_logo_grey.svg.png" alt=""></a>
+                </div>
+            </div>
+            <div id="footer_1_2">
+                <p class="ptags">JOB SEEKERS</p>
+                <a href=""><p>Register / Login</p></a>
+                <a href="https://www.shine.com/job-search/"><p>Browse Jobs</p></a>
+                <a href=""><p>Create Free Job Alert</p></a>
+                <a href=""><p>Job Assistance Servises</p></a>
+                <a href=""><p>Courses</p></a>
+            </div>
+            <div id="footer_1_3">
+                <p class="ptags">EMPLOYERS</p>
+                <a href="https://recruiter.shine.com/?utm_source=shine&utm_medium=footer&utm_campaign=Candidate"><p>Recruiter India</p></a>
+                <a href="https://recruiter.shine.com/online-package/personaldetail/?package_id=31&utm_source=shine&utm_medium=footer&utm_campaign=Candidate"><p>Post Jobs</p></a>
+            </div>
+            <div id="footer_1_4">
+                <p class="ptags">PARTNER SITES</p>
+                <a href="https://www.englishmate.com/"><p>English Mate</p></a>
+                <a href="https://www.studymateonline.com/"><p>Study Mate</p></a>
+                <a href="https://www.hindustantimes.com/"><p>Hindustantimes.com</p></a>
+                <a href="https://www.livemint.com/"><p>Livemint.com</p></a>
+                <a href="https://www.livehindustan.com/"><p>Livehindustan.com</p></a>
+                <a href="https://www.ottplay.com/?utm_source=shine&utm_medium=partner-site&utm_campaign=april-21"><p>OTTplay.com</p></a>
+            </div>
+            <div id="footer_1_5">
+                <p class="ptags">CONTACTS</p>
+                <p style="color: rgb(86, 86, 210);">080-1006 2222</p>
+                <a href="contactus@shine.com"><p>contactus@shine.com</p></a>
+                <div id="footer_1_5_1">
+                    <a href="https://www.linkedin.com/company/shinecom/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt=""></a>
+                    <a href="https://twitter.com/Shinedotcom?lang=en"><img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" alt=""></a>
+                    <a href="https://www.facebook.com/shinedotcom/"><img src="https://www.freepnglogos.com/uploads/logo-facebook-png/logo-facebook-facebook-logo-transparent-png-pictures-icons-and-0.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="footer_2">
+            <div id="footer_2_1">
+                <a href="https://www.shine.com/#"><p style=" color: grey;">Feedback</p></a>
+                <a href="https://www.shine.com/faqs/"><p style=" color: grey;">FAQs</p></a>
+                
+                <a href="https://www.shine.com/aboutus/"><p style=" color: grey;">About us</p></a>
+                
+                <a href="https://www.shine.com/contactus/"><p style=" color: grey;">Contact us</p></a>
+                
+                <a href="https://www.shine.com/privacypolicy/"><p style=" color: grey;">Privacy Policy</p></a>
+                
+                <a href="https://www.shine.com/cookie-policy/"><p style=" color: grey;">Cookie Policy</p></a>
+                
+                <a href="https://www.shine.com/securityadvice/"><p style=" color: grey;">Fraud Alert</p></a>
+                
+                <a href="https://www.livemint.com/"><p style=" color: grey;">Business News</p></a>
+                
+                <a href="https://www.hindustantimes.com/"><p style=" color: grey;">English News</p></a>
+                
+                <a href="https://www.shine.com/termsandconditions/"><p style=" color: grey;">Terms & Conditions</p></a>
+                
+                <a href="https://www.shine.com/disclaimer/"><p style=" color: grey;">Disclaimer</p></a>
+                
+                <a href="https://www.shine.com/contactus/?type=reportJobPosting"><p style=" color: grey;">Report a Job Posting</p></a>
+            </div>
+            <div id="footer_2_2">
+                 <p>@ 2022 HT Media <br>Limited</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
