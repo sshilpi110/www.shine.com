@@ -1,8 +1,12 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
 #navbar {
     margin: 0px;
     padding: 0px;
     left: 0px;
-    position: relative;
+    /* position:absolute; */
 }
 #navbar_1 {
     display: flex;
@@ -69,4 +73,78 @@
     width: 75px;
     margin-left: 120px;
     height: 50px;
+}
+#signup {
+    font-family: PT Sans,sans-serif;
+    width: 62.12vw;
+    height: 96vh;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.574) 0px 8px 26px 0px;
+    /* padding-top: 160px; */
+    margin: 3.50rem auto;
+    border: 1px solid red;
+    padding:20px ;
+}
+#signup_1 {
+    width: 70%;
+    border: 1px solid royalblue;
+    text-align: center;
+}
+#signup_1_1 {
+    text-align: center;
+
+}
+
+#signup_1_0 > h1 {
+    font-size: 24.5px;
+    /* margin-top:-8px ; */
+}
+#signup_1_0 {
+    width: 50%;
+    margin: auto;
+}
+#signup_1_0 > img {
+    width: 100%;
+}
+#signup_1_0 > p {
+    font-size: 11.5px;
+    margin-top: -3px;
+    color: rgb(168, 168, 168);
+}
+#signup_1_1{
+    display: flex;
+    align-items: center;
+    /* background-color: aliceblue; */
+}
+  
+#signup_1_1 > p{
+    padding: 0 2rem; /* creates the space */
+    margin-right: 2px;
+    margin-left: 2px;
+    font-size: 13px;
+    font-weight: 400;
+}
+  
+#signup_1_1 #line_1{
+    flex: 1;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+#signup_1_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+#signup_1_2 > div > input {
+    padding: 12.5px 140px 12.5px 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+#signup_1_2 > div > p {
+    font-size: 11.5px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -0.5px;
 }
