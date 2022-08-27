@@ -1,4 +1,4 @@
- #navbar {
+#navbar {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -121,19 +121,20 @@
 }
 #navbar_3 {
     display: flex;
-    gap: 45px;
+    gap: 30px;
     width: 46vw;
     font-weight: 600;
     /* border: 1px solid red; */
     margin-left: 110px;
     margin-top: -6px;
     font-size: 14px;
-    justify-content: left;
+    /* justify-content: left; */
     /* box-shadow: 0px 0px 5px 0px grey; */
 }
 #navbar_3 div:hover {
     border-bottom: 2.5px solid rgb(31, 110, 237);
 }
-#navbar_3 > div {
-    justify-content: left;
+#navbar_3 > div > a > p{
+    margin-left: -0.1px;
 }
+
