@@ -1,5 +1,5 @@
 let footer = () => {
-    return `
+    return `<div id="footer">
     <div id="footer_1">
         <div id="footer_1_1">
             <a href="home.html"><img style="width: 75px;height:50px;" src="https://www.shine.com/next/static/images/shine-logo.png" alt=""></a>
@@ -72,7 +72,8 @@ let footer = () => {
         <div id="footer_2_2">
              <p>@ 2022 HT Media <br>Limited</p>
         </div>
-    </div>`
+    </div>
+</div>`
 }
 
 export default footer;

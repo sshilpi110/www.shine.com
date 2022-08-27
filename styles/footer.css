@@ -1,7 +1,7 @@
 #footer {
     width: 100vw;
     height: 332px;
-    position: fixed;
+    position: relative;
     bottom: 0px;
     /* border: 1px solid red; */
     background-color: white;
@@ -15,16 +15,26 @@
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    
     /* color: ; */
+}
+#footer_1  a {
+    text-decoration: none;
+    color: rgb(67, 67, 221);
+    /* margin-top: 3px;
+    margin-bottom: 3px; */
+    font-size: 13px;
+    /* padding: 01px; */
 }
 .ptags {
     font-weight: 550;
 }
-a {
+#footer_2_1 > a {
     text-decoration: none;
     color: rgb(67, 67, 221);
+
 }
-#footer_1 p{
+#footer_1 > p{
     margin-top: -5px;
 }
 #footer_2 {
@@ -35,6 +45,7 @@ a {
     justify-content: space-between;
     margin: auto;
     color: grey;
+    margin-top: 10px;
 }
 #footer_2_1 {
     display: flex;
