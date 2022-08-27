@@ -131,3 +131,7 @@
 #navbar_3 div:hover {
     border-bottom: 2.5px solid rgb(31, 110, 237);
 }
+#navbar{
+    background-color: gray;
+    /* color: white; */
+}
