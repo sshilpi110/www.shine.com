@@ -155,11 +155,11 @@ span{
     margin-top: 50px;
     text-align: center;
 }
-#asp h2{
+#asp>h2{
     font-size: 38px;
     color: #232434;
 }
-#asp p{
+#asp>p{
     font-size: 24px;
     color: #38404c;
     margin: 0px 0px 10px;
@@ -176,7 +176,7 @@ span{
     text-align: center;
     gap: 20px;
 }
-#asp2 div{
+#asp2>div{
     display: flex;
     gap: 10px;
     align-items: center;
@@ -185,7 +185,7 @@ span{
 #asp2 img{
     width: 100px;
 }
-#asp2 select{
+#asp2>select{
     text-align: center;
 }
 #exp{
@@ -195,15 +195,15 @@ span{
 #exp1{
     margin-left: 180px;
 }
-#exp1 h2{
+#exp1>h2{
     font-size: 38px;
     color: #232434;
 }
-#exp1 p{
+#exp1>p{
     font-size: 24px;
     color: #38404c;
 }
-#exp1 button{
+#exp1>button{
     font-size: 25px;
     border: none;
     color: #ffffff;
@@ -220,15 +220,15 @@ span{
 #rec2{
     margin-left: 380px;
 }
-#rec2 h2{
+#rec2>h2{
     font-size: 38px;
     color: #232434;
 }
-#rec2 p{
+#rec2>p{
     font-size: 24px;
     color: #38404c;
 }
-#rec2 button{
+#rec2>button{
     font-size: 25px;
     border: none;
     color: #ffffff;
@@ -244,7 +244,7 @@ span{
     margin-bottom: 50px;
     
 }
-#pop h2{
+#pop>h2{
     margin-bottom: -2px;
 }
 #pop1 {
@@ -307,7 +307,7 @@ span{
     font-size: 34px;
     
 }
-#popu h2{
+#popu>h2{
     margin-bottom: -2px;
 }
 #popu1 {
@@ -381,23 +381,50 @@ span{
     color: #232434;
     text-align: center;
 }
+#late1{
+    /* border:  2px solid blue; */
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    justify-content: space-evenly;
+    gap: 30px;
+}
+#late2 img{
+    width: 500px;
+    border-radius: 8px;
+}
+#late2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+#late2>strong{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
 
 #success{
     text-align: center;
+    margin-top: 100px;
+    font-size: 34px;
 }
 #successdiv{
     width: 90%;
     margin: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 5%;
+    margin-bottom: 50px;
     
 }
 .successdiv1{
     /* border: 2px solid green; */
-    background-color: rgb(230,230,230);
+    background-color: whitesmoke;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
 }
 .successdiv1>div{
     height: 80px;
@@ -412,9 +439,8 @@ span{
 .successdiv1>h1{
     margin: 20px;
     margin-top: 30px;
+    text-align: center;
 }
 #heading1{
 margin-top: 200px;
 }
-
-
