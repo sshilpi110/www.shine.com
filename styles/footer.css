@@ -1,8 +1,13 @@
 #footer {
     width: 100vw;
     height: 332px;
+<<<<<<< .merge_file_a04292
+=======
+    position: relative;
+>>>>>>> .merge_file_a01648
     bottom: 0px;
     /* border: 1px solid red; */
+    background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-bottom: 80px;
 }
@@ -15,24 +20,48 @@
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+<<<<<<< .merge_file_a04292
     text-decoration: none;
     line-height: 50px;
     color: rgb(67, 67, 221);
     /* color: ; */
 }
 
+=======
+    
+    /* color: ; */
+}
+#footer_1  a {
+    text-decoration: none;
+    color: rgb(67, 67, 221);
+    /* margin-top: 3px;
+    margin-bottom: 3px; */
+    font-size: 13px;
+    /* padding: 01px; */
+}
+>>>>>>> .merge_file_a01648
 .ptags {
     font-weight: 560;
 }
+<<<<<<< .merge_file_a04292
 
 a {
+=======
+#footer_2_1 > a {
+>>>>>>> .merge_file_a01648
     text-decoration: none;
     color: rgb(67, 67, 221);
+
 }
+<<<<<<< .merge_file_a04292
 
 #footer_1 p {
     margin-top:-28px;
     /* padding-bottom:50px; */
+=======
+#footer_1 > p{
+    margin-top: -5px;
+>>>>>>> .merge_file_a01648
 }
 
 #footer_2 {
@@ -43,7 +72,11 @@ a {
     justify-content: space-between;
     margin: auto;
     color: grey;
+<<<<<<< .merge_file_a04292
     margin-top: 40px;
+=======
+    margin-top: 10px;
+>>>>>>> .merge_file_a01648
 }
 
 #footer_2_1 {

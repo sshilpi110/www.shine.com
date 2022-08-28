@@ -1,4 +1,8 @@
+import navbar from "./navbar.js";
+document.getElementById("navbar_home").innerHTML = navbar();
 
+import footer from "./footer.js";
+document.getElementById("footer_home").innerHTML = footer();
 
 
 let slideData = [
