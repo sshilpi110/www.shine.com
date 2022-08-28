@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login - Shine.com</title>
+    <link rel="icon" href="https://www.shine.com/next/static/images/shine-logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/login.css">
 </head>
 <body>
-    
+    <div id="login">
+        <div id="login_1">
+            <div id="login_1_1">
+                <p>Sign In</p>
+                <input type="text" id="email" placeholder="Enter Email">
+                <input type="text" id="pass" placeholder="Enter Password">
+                <p>Forgot Password</p>
+                <button onclick="Login()">Login</button>
+                <p>------- OR --------</p>
+                <button>Login via OTP</button>
+            </div>
+            <div id="login_1_2">
+                <a href="https://accounts.google.com/o/oauth2/auth?redirect_uri=storagerelay%3A%2F%2Fhttps%2Fwww.shine.com%3Fid%3Dauth282967&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm=&include_granted_scopes=true&client_id=284765467291-lo164ec1u4pcnhtrbicird7tsdt553sm.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fwww.shine.com&fetch_basic_profile=true&gsiwebsdk=2"><img src="https://upww.screenrec.com/images/f_H3D1WufCvym7dhBnr0lTpP2zw9IQVjX5.png" alt=""></a>
+                <a href="https://www.linkedin.com/oauth/v2/authorization?response_type=code&amp;client_id=757gbstpwa6dqp&amp;state=4c6f2cbf-675f-468e-bac0-9adc3048e5f3&amp;scope=r_emailaddress+r_basicprofile&amp;redirect_uri=https://www.shine.com/linkedin/login"><img src="https://upww.screenrec.com/images/f_7huiPU4DLEFyjgO62S5K9BAXxlI1bRNk.png" alt=""></a>
+                <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=473197949429502&kid_directed_site=0&app_id=473197949429502&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.1%2Fdialog%2Foauth%3Fapp_id%3D473197949429502%26cbt%3D1661673875599%26channel_url%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df318ca90c3878a8%2526domain%253Dwww.shine.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fwww.shine.com%25252Ff7398309cc4c4%2526relation%253Dopener%26client_id%3D473197949429502%26display%3Dpopup%26domain%3Dwww.shine.com%26e2e%3D%257B%257D%26fallback_redirect_uri%3Dhttps%253A%252F%252Fwww.shine.com%252F%26locale%3Den_US%26logger_id%3Df184acd54785a0c%26origin%3D1%26redirect_uri%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df18520fc42e5364%2526domain%253Dwww.shine.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fwww.shine.com%25252Ff7398309cc4c4%2526relation%253Dopener%2526frame%253Df10790f66bf6f68%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%26scope%3Demail%26sdk%3Djoey%26version%3Dv2.1%26ret%3Dlogin%26fbapp_pres%3D0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df18520fc42e5364%26domain%3Dwww.shine.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.shine.com%252Ff7398309cc4c4%26relation%3Dopener%26frame%3Df10790f66bf6f68%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied&display=popup&locale=en_GB&pl_dbl=0"><img src="https://upww.screenrec.com/images/f_Y1EWsOL0avTbIc7SHhGz6Fxeki3AuqUr.png" alt=""></a>
+            </div>
+        </div>
+        <div id="login_2">
+            <p>Don't have Shine Account?</p>
+            <a href="signup.html"><button>Register Now</button></a>
+        </div>
+    </div>
 </body>
 </html>
+<script src="./scripts/login.js"></script>

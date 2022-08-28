@@ -1,8 +1,4 @@
-import navbar from "./navbar.js";
-document.getElementById("navbar_home").innerHTML = navbar();
 
-import footer from "./footer.js";
-document.getElementById("footer_home").innerHTML = footer();
 
 
 let slideData = [
@@ -67,3 +63,8 @@ var midSwiper = new midSwiper("#mid_wrap", {
 });
 // --------------popularCourses-----------------
 
+// import navbar from "./navbar.js";
+// document.getElementById("navbar_home").innerHTML = navbar();
+
+// import footer from "./footer.js";
+// document.getElementById("footer_home").innerHTML = footer();

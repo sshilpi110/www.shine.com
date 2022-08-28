@@ -1,0 +1,65 @@
+#login {
+    width: 40%;
+    box-shadow: 0.1px 5px 20px grey;
+    margin: auto;
+    margin-top: 160px;
+    padding: 50px;
+    border-radius: 12px;
+}
+#login_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 90%;
+    margin-right: -30px;
+}
+#login_1_1 > p:nth-child(1){
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: -1px;
+}
+#login_1_1 > input {
+    padding: 10px 100px 10px 10px;
+    border: 1px solid rgb(17, 86, 247);
+    margin-top: 10px;
+    border-radius: 6px;
+}
+#login_1_1 > p:nth-child(4) {
+    color: rgb(17, 86, 247);
+    margin-top: -0.1px;
+}
+#login_1_1 > button {
+    padding: 10px 40px;
+    border-radius: 6px;
+    background-color: #621fff;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0px 10px 30px #621fff;
+}
+#login_1_2 > a > img{
+    width: 70%;
+}
+
+#login_2 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    padding: 20px;
+    text-align: center;
+    background-color: azure;
+
+}
+#login_2 > a > button {
+    padding: 10px 40px;
+    border-radius: 6px;
+    background-color: #621fff;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 600;
+    box-shadow: 0px 10px 30px #621fff;
+}
