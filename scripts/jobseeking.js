@@ -1,4 +1,4 @@
-import navbar from "./scripts/navbar.js";
+import navbar from "./navbar.js";
 document.getElementById("navbarShine").innerHTML=navbar();
 
 import footer from "./footer";

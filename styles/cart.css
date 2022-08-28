@@ -1,0 +1,27 @@
+#something {
+    width: 75vw;
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 0.1px 5px 20px rgba(3, 3, 3, 0.577);
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 120px;
+}
+#products_data > img{
+    width: 10px;
+}
+#main {
+    border-left: 3px solid greenyellow;
+}
+#imaOne{
+    width: 50%;
+    
+    /* background-color: pink; */
+}
+#dividerJS{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
