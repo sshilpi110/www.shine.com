@@ -82,13 +82,13 @@ body {
     box-shadow: rgba(100, 100, 111, 0.574) 0px 8px 26px 0px;
     /* padding-top: 160px; */
     margin: 3.50rem auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding:20px ;
 }
 #signup_1 {
     width: 70%;
-    border: 1px solid royalblue;
-    text-align: center;
+    /* border: 1px solid royalblue; */
+    /* text-align: center; */
 }
 #signup_1_1 {
     text-align: center;
@@ -102,6 +102,7 @@ body {
 #signup_1_0 {
     width: 50%;
     margin: auto;
+    text-align: center;
 }
 #signup_1_0 > img {
     width: 100%;
@@ -114,6 +115,7 @@ body {
 #signup_1_1{
     display: flex;
     align-items: center;
+    text-align: center;
     /* background-color: aliceblue; */
 }
   
@@ -137,14 +139,107 @@ body {
     column-gap: 10px;
     margin-top: 20px;
 }
+
 #signup_1_2 > div > input {
     padding: 12.5px 140px 12.5px 10px;
     border-radius: 5px;
-    border: 1px solid grey;
+    border: 1px solid royalblue;
+
 }
 #signup_1_2 > div > p {
     font-size: 11.5px;
     font-weight: 500;
     text-align: center;
     margin-top: -0.5px;
+}
+#signup_1_2 > div:last-child > input{
+    width: 153.2%; 
+}
+#signup_1_3 {
+    width: 40%;
+    
+    margin: auto;
+}
+#signup_1_3 > img {
+    margin-top: 50px;
+    width: 95%;
+}
+#signup_1_3 > p {
+    font-size: 11.5px;
+    margin-top: -3px;
+    color: rgb(168, 168, 168);
+}
+#signup_1_4 {
+    width: 60%;
+    display: flex;
+    /* text-align: center; */
+    /* font-size: 12px; */
+    margin: auto;
+}
+
+
+
+label {
+    font-size: 12.5px;
+    text-align: left;
+    word-wrap: break-word;
+    color: rgba(0, 0, 0, 0.87);
+    /* margin-bottom: 10px; */
+    margin-top: 13px;
+}
+#signup_1_5 {
+    width: 20%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 10px;
+}
+#signup_1_5 > button {
+    padding: 10px 40px;
+    border-radius: 6px;
+    background-color: #621fff;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0px 10px 30px #621fff;
+}
+#signup_1_5 > button:hover {
+    background-color: #4a10d3;
+}
+
+#signup_2 {
+    display: flex;
+    /* margin: auto; */
+    margin-top: 175px;
+    margin-left: 20px;
+    gap: 60px;
+}
+/* #signup_2_1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+} */
+#signup_2_1 > p {
+    padding: 0 2rem; /* creates the space */
+    margin-right: 2px;
+    margin-left: 2px;
+    font-size: 13px;
+    font-weight:700;
+    margin-top:150px ;
+}
+/* #signip_2 { */
+    /* t; */
+/* } */
+/* #signup_2_2 > div {
+    /* border: 1px solid red; */
+    /* width: 100px;
+    border-radius: 6px;
+    border: transparent;
+    box-shadow: 2px 1px 10px rgba(197, 195, 195, 0.655);
+    margin-bottom: 10px;
+    text-align: center;
+    height: 25px;
+    display: flex;
+} */
+#signup_2_2 {
+    margin-top: 70px;
 }

@@ -32,7 +32,7 @@
 #btn1 {
     border-radius: 20px;
     height: 35px;
-    width:220px;
+    width: 220px;
     color: black;
     background-color: rgb(51, 152, 155);
     border: transparent;
@@ -202,7 +202,7 @@ h1 {
     font-weight: 700;
     cursor: pointer;
     font-family: inherit;
-    margin-left:380px;
+    margin-left: 380px;
     margin-top: 20px;
 }
 
@@ -211,7 +211,7 @@ h1 {
     margin-left: 250px;
 }
 
-.btn-link-3{
+.btn-link-3 {
     border: 0;
     color: #8652ff !important;
     background-color: transparent;
@@ -398,21 +398,23 @@ h1 {
 }
 
 /* -------------------popularCourses--------------- */
-#popular{
+#popular {
     /* border:1px solid red; */
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-top: 30px;
 }
-#popFlex{
+
+#popFlex {
     display: flex;
-    gap:2%;
+    gap: 2%;
     font-weight: 500;
-    color:rgba(1, 1, 1, 0.966);
-    margin-left:40px;
+    color: rgba(1, 1, 1, 0.966);
+    margin-left: 40px;
 
 }
-.all{
+
+.all {
 
     color: black;
     text-decoration: none;
@@ -422,48 +424,54 @@ h1 {
 
 /* -------popular card------- */
 
-#Pop_card{
+#Pop_card {
     /* border:1px solid red; */
     display: flex;
     gap: 5%;
-   margin-top: 30px;
+    margin-top: 30px;
     /* margin-left:20px; */
-    
+
 }
-.Pop{
-    width:35%;
+
+.Pop {
+    width: 35%;
     height: 330px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 10px;
-    
+
 }
-.Pop h4{
-   color: #38404c;
-   margin-top: 10px;
-   margin-left: 15px;
+
+.Pop h4 {
+    color: #38404c;
+    margin-top: 10px;
+    margin-left: 15px;
 }
-.card{
+
+.card {
     display: flex;
-   
+
 }
-.cFlex1{
+
+.cFlex1 {
     display: flex;
     margin-top: 30px;
     gap: 7%;
-   color: #38404c;
+    color: #38404c;
 }
 
-.cFlex1 img{
+.cFlex1 img {
     border-radius: 50%;
     width: 30%;
     height: 60px;
-    margin-left:-50px;
+    margin-left: -50px;
 }
-.pTag{
-    text-align:justify;
+
+.pTag {
+    text-align: justify;
     margin-left: 90px;
     line-height: 27px;
 }
+
 .w-100 {
     width: 100% !important;
     margin-left: 250px;
@@ -473,16 +481,17 @@ h1 {
 
 .btn-link-2 {
     border: 0;
-    color: #8652ff ;
+    color: #8652ff;
     background-color: transparent;
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
     font-family: inherit;
     margin-left: -240px;
-    
+
 }
-.buy{
+
+.buy {
     margin-left: -260px;
     width: 30%;
     height: 30px;
@@ -491,12 +500,13 @@ h1 {
     color: #fff;
     box-shadow: 0 4px 10px 0 rgb(144 96 255 / 30%);
     border-radius: 4px;
-    font-weight:600;
+    font-weight: 600;
     cursor: pointer;
     font-style: 16px;
 
 }
-.arrow{
+
+.arrow {
     margin-top: 140px;
     padding-top: 10px;
     /* margin-right: 30px; */
@@ -506,13 +516,13 @@ h1 {
     width: 5%;
     border-radius: 50%;
     text-align: center;
-    color: #8652ff ;
+    color: #8652ff;
     font-size: 20px;
-     cursor: pointer;
+    cursor: pointer;
 }
 
 
-.cFlex2{
+.cFlex2 {
     display: flex;
     margin-top: 40px;
 }
@@ -520,22 +530,24 @@ h1 {
 
 /* ---------------------Blog------------------------- */
 
-#sky_blue3{
+#sky_blue3 {
     width: 100%;
     background-color: #f2f3f8;
     padding: 2rem 0;
-    margin-top:50px;
+    margin-top: 50px;
     /* padding: 20px */
 
 }
-#sky_blue3 h1{
+
+#sky_blue3 h1 {
     margin-top: 10px;
 }
+
 #Blog {
     display: flex;
     gap: 5%;
     margin: 50px;
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 
@@ -554,7 +566,7 @@ h1 {
     width: 88%;
     color: #38404c;
     display: block;
-  
+
 
 }
 
@@ -566,7 +578,7 @@ h1 {
 
 .png {
     display: flex;
-    gap:10px;
+    gap: 10px;
     padding-right: 60px;
     margin-top: 10px;
     /* padding:5px; */
@@ -581,11 +593,12 @@ h1 {
 
 .pngFlex {
     display: flex;
-    gap:3%;
+    gap: 3%;
 }
-.pngFlex p{
-    color:rgb(220, 220, 220);
+
+.pngFlex p {
+    color: rgb(220, 220, 220);
     width: 80%;
-    font-size:5px;
+    font-size: 5px;
     /* border:1px solid red; */
 }
