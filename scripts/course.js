@@ -1,4 +1,5 @@
 let container=document.getElementById("bac")
+let dataFromLS = JSON.parse(localStorage.getItem("courses")) || [];
 let data=[
     {
         img:'https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1640851375_8085.png&w=1920&q=75',
@@ -128,7 +129,11 @@ function products1(data1){
 
         let btn = document.createElement("button")
         btn.innerText = "Buy Now"
-        btn.setAttribute("id","btn")
+        btn.setAttribute("id","btn");
+        btn.addEventListener("click",function(){
+            addeData(el);
+        })
+    
 
         DIV.append(p,btn)
         
@@ -139,3 +144,9 @@ function products1(data1){
     })
 }
 products1(data1)
+
+function addeData(el){
+
+    dataFromLS.push(el);
+    localStorage.setItem(("courses"),JSON.stringify(dataFromLS));
+}

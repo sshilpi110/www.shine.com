@@ -1,12 +1,17 @@
 #footer {
     width: 100vw;
     height: 332px;
+<<<<<<< .merge_file_a04292
+=======
     position: relative;
+>>>>>>> .merge_file_a01648
     bottom: 0px;
     /* border: 1px solid red; */
     background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 80px;
 }
+
 #footer_1 {
     width: 76vw;
     height: 210px;
@@ -15,6 +20,14 @@
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+<<<<<<< .merge_file_a04292
+    text-decoration: none;
+    line-height: 50px;
+    color: rgb(67, 67, 221);
+    /* color: ; */
+}
+
+=======
     
     /* color: ; */
 }
@@ -26,17 +39,31 @@
     font-size: 13px;
     /* padding: 01px; */
 }
+>>>>>>> .merge_file_a01648
 .ptags {
-    font-weight: 550;
+    font-weight: 560;
 }
+<<<<<<< .merge_file_a04292
+
+a {
+=======
 #footer_2_1 > a {
+>>>>>>> .merge_file_a01648
     text-decoration: none;
     color: rgb(67, 67, 221);
 
 }
+<<<<<<< .merge_file_a04292
+
+#footer_1 p {
+    margin-top:-28px;
+    /* padding-bottom:50px; */
+=======
 #footer_1 > p{
     margin-top: -5px;
+>>>>>>> .merge_file_a01648
 }
+
 #footer_2 {
     display: flex;
     font-size: 14px;
@@ -45,15 +72,22 @@
     justify-content: space-between;
     margin: auto;
     color: grey;
+<<<<<<< .merge_file_a04292
+    margin-top: 40px;
+=======
     margin-top: 10px;
+>>>>>>> .merge_file_a01648
 }
+
 #footer_2_1 {
     display: flex;
     justify-content: space-evenly;
     gap: 14px;
-
+    margin-top: 20px;
 }
-#footer_1_5_1 > a> img{
+
+#footer_1_5_1>a>img {
     width: 14px;
     margin-right: 20px;
+    /* padding-bottom: 30px; */
 }

@@ -1,3 +1,3 @@
-import navbar from "./navbar.js";
+import navbar from "../components/navbar.js";
 document.getElementById("navbarShine").innerHTML=navbar();
 

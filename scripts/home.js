@@ -1,4 +1,10 @@
 
+<<<<<<< HEAD
+=======
+
+import footer from "./footer.js";
+document.getElementById("footer_home").innerHTML = footer();
+>>>>>>> 3d643d5ca6735796bf22e7b7a341a2c82afcd2ec
 
 
 let slideData = [
