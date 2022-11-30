@@ -19,27 +19,50 @@ let navbar = ()=> {
         <div id="navbar_2_1">
             <img src="https://www.shine.com/next/static/images/shine-logo.png" alt="">
             <input id="navbarSearch" type="text" placeholder="Job title, skills">
-            <img src="https://www.transparentpng.com/thumb/search-button/f2qMti-search-button-square-blue-free-png.png" alt="">
+            <img onclick="Search()" src="https://www.transparentpng.com/thumb/search-button/f2qMti-search-button-square-blue-free-png.png" alt="">
         </div>
         <div id="navbar_2_2">
-            <img src="https://upww.screenrec.com/images/f_7QvGdIeM1bhUrOHxEFPRfkomNC8DjzlY.png" alt="">
-            <img src="https://upww.screenrec.com/images/f_SqT4blAv7tDGkcWYReFpHUwug5CXoP08.png" alt="">
-            <img src="https://upww.screenrec.com/images/f_vdW94NclGjnYIMqCzuLbw3s0oTpPXytm.png" alt="">
+            <div id="navbar_2_2_1">
+                <a href="login.html"><button>Login</button></a>
+                <a href="signup.html"><button>Register</button></a>
+            </div>
+            <div>
+                <img src="https://upww.screenrec.com/images/f_7QvGdIeM1bhUrOHxEFPRfkomNC8DjzlY.png" alt="">   
+            </div>
+            <div>
+                <a href="cart.html"><img src="https://upww.screenrec.com/images/f_SqT4blAv7tDGkcWYReFpHUwug5CXoP08.png" alt=""></a>
+            </div>
         </div>
     </div>
     <hr>
     <div id="navbar_3">
         <div>
-            <p>HOME</p>
+            <a style="text-decoration: none;color: black;" href="home.html"><p>HOME</p></a>
         </div>
-        <div>
-            <p>JOBS</p>
+        <div id="Jobs_hvr">
+            <span><a style="text-decoration: none;color: black;" href=""><p>JOBS</p></a></span>
+            <div id="Jobs_hvr_1">
+                <p>Seach</p>
+                <p>Job Alert</p>
+            </div>
         </div>
-        <div>
-            <p>JOBS SEEKING </p>
+        <div id="JobS_hvr">
+            <span><a style="text-decoration: none;color: black;" href="jobSeeking.html"><p>JOBS SEEKING ASSISTANCE</p></a></span>
+            <div id="JobS_hvr_1">
+                <p>Profile Booster</p>
+                <p>Application Highlighter</p>
+                <p>Resume Writting</p>
+                <P style="color: rgb(31, 110, 237);">View All</P>
+            </div>
         </div>
-        <div>
-            <p>COURSES</p>
+        <div id="courses_hvr">
+            <a style="text-decoration: none;color: black;" href="course.html"><p>COURSES</p></a>
+            <div id="courses_hvr_1">
+                <p>Sales And Marketing</p>
+                <p>Information And Technology</p>
+                <p>Operation Management</p>
+                <P style="color: rgb(31, 110, 237);">View All</P>
+            </div>
         </div>
         <div>
             <a style="text-decoration: none;color: black;" href="https://learning.shine.com/user-intent"><p>CAREER GUIDANCE</p></a>
