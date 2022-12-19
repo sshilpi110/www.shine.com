@@ -1,13 +1,18 @@
 
-shine-clone is a group project . It was our construct week project. 
+
+# Shine.com Clone
+#construct![shine_com](https://user-images.githubusercontent.com/101394814/200108387-785853b9-a635-4fd4-bf49-f5c359ec65ef.png)
+netlify link https://ubiquitous-centaur-f20fa3.netlify.app/
+
+<p>shine-clone is a group project . It was our construct week project. 
 I was the team member during this project. We completed this project in 5 days with everyone's support .
- Shine.com is the most innovative and second largest online job portal in India.
+ Shine.com is the most innovative and second largest online job portal in India.<p/>
 
 
-Project Name : - # humane-north-3042
-Website cloned for this project: - www.shine.com
-Shilpi kumari - Team Lead***task=Home page.
-shreyash Birajdar - Member-1***Task=Jobs seeking Assistance.
-Raj kumar Sahu - Member-2***Task=Courses.
-Kartikey Mishra - Member-3****Task=Navbar,signUp,signIn,Footer.
-Mallikikarjuna  - Member-4****Task=Jobs,Carrier Guidance.
+<h1>Project Name : - # humane-north-3042</h1>
+<h4>Website cloned for this project: - www.shine.com</h4>
+<h4>Shilpi kumari - Team Lead task-Home page.<h4/>
+<h4>shreyash Birajdar - Member-1 Task-jobs seeking Assistance.<h4/>
+<h4>Raj kumar Sahu - Member-2 Task-Courses.<h4/>
+<h4>Kartikey Mishra - Member-3 Task Navbar,signUp,signIn,Footer.<h4/>
+<h4>Mallikikarjuna  - Member-4 Task=Jobs,Carrier Guidance.<h4/>
