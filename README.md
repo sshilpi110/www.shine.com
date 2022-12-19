@@ -1,7 +1,7 @@
 
 
-<h3>netlify link https://ubiquitous-centaur-f20fa3.netlify.app/<h3/>
-#construct![shine_com](https://user-images.githubusercontent.com/101394814/200108387-785853b9-a635-4fd4-bf49-f5c359ec65ef.png)
+#<h3>netlify link https://ubiquitous-centaur-f20fa3.netlify.app/<h3/>
+![shine_com](https://user-images.githubusercontent.com/101394814/200108387-785853b9-a635-4fd4-bf49-f5c359ec65ef.png)
 
 
 <p>shine-clone is a group project . It was our construct week project. 
